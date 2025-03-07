@@ -1,10 +1,8 @@
 import { request, response } from "express";
 
-class UserController{
-  async getAll(req = request, res = response){
+class PetController{
+  async create(req = request, res = response){
     try {
-
-      res.send("Hola")
       
     } catch (error) {
       console.log(error);
@@ -13,5 +11,4 @@ class UserController{
   }
 }
 
-
-export const userController = new UserController();
+export const petController = new PetController();
