@@ -1,0 +1,15 @@
+2025-03-18 19:41:27 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:43:16 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:44:37 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:46:08 [[31merror[39m]: El mail o password no válido
+2025-03-18 19:47:36 [[31merror[39m]: El mail o password no válido
+2025-03-18 19:48:03 [[31merror[39m]: {"statusCode":401,"files":["Error: El mail o password no válido","    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/auth/auth.service.js:22:67)","    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/auth/auth.controller.js:16:21)"],"message":"El mail o password no válido","path":"/api/auth/login","method":"POST"}
+2025-03-18 19:52:46 [[31merror[39m]: [POST] /api/auth/login - msg: El mail o password no válido
+2025-03-18 19:53:42 [[31merror[39m]: [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:55:05 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:56:47 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:25 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:32 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:58 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 20:13:34 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 20:16:49 [[31merror[39m]: Status: 401 [POST] /api/auth/login - msg: El mail o password no válido

@@ -1,0 +1,78 @@
+undefined [[object Object]]: undefined
+2025-03-18 19:35:09 [[32minfo[39m]: Probando logger
+2025-03-18 19:36:20 [[32minfo[39m]: Probando logger
+2025-03-18 19:37:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:37:49 [[33mwarn[39m]: Servidor en el puerto 8080
+2025-03-18 19:37:59 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:38:04 [[34mdebug[39m]: Servidor en el puerto 8080
+2025-03-18 19:38:27 [[32mhttp[39m]: Servidor en el puerto 8080
+2025-03-18 19:38:33 [[36mverbose[39m]: Servidor en el puerto 8080
+2025-03-18 19:38:39 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:38:44 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:39:11 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:39:11 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:39:29 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:39:29 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:41:11 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:41:11 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:41:27 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:41:27 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:43:16 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:43:16 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:44:37 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:44:37 [[31merror[39m]: Servidor en el puerto 8080
+2025-03-18 19:45:07 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:45:07 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:45:17 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:45:17 [[34mdebug[39m]: Servidor en el puerto 8080
+2025-03-18 19:45:38 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:45:38 [[34mdebug[39m]: Servidor en el puerto 8080
+2025-03-18 19:45:52 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:45:52 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:46:08 [[31merror[39m]: El mail o password no válido
+2025-03-18 19:47:34 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:47:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:47:36 [[31merror[39m]: El mail o password no válido
+2025-03-18 19:48:00 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:48:00 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:48:03 [[31merror[39m]: {"statusCode":401,"files":["Error: El mail o password no válido","    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/auth/auth.service.js:22:67)","    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/auth/auth.controller.js:16:21)"],"message":"El mail o password no válido","path":"/api/auth/login","method":"POST"}
+2025-03-18 19:52:42 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:52:42 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:52:46 [[31merror[39m]: [POST] /api/auth/login - msg: El mail o password no válido
+2025-03-18 19:53:42 [[31merror[39m]: [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:55:03 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:55:03 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:55:05 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:56:43 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:56:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:56:47 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:56:47 [[34mdebug[39m]: {"statusCode":500,"files":["CastError: Cast to ObjectId failed for value \"67ca35d1e8b1391ada8c86e\" (type string) at path \"_id\" for model \"pets\"","    at SchemaObjectId.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schema/objectId.js:251:11)","    at SchemaType.applySetters (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1255:12)","    at SchemaType.castForQuery (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1673:17)","    at cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/cast.js:390:32)","    at Query.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4907:12)","    at Query._castConditions (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2325:10)","    at model.Query._findOne (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2648:8)","    at model.Query.exec (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4456:80)","    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","    at async PetDao.getOne (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/pets/pet.dao.js:14:12)"],"message":"Cast to ObjectId failed for value \"67ca35d1e8b1391ada8c86e\" (type string) at path \"_id\" for model \"pets\"","path":"/api/pets/67ca35d1e8b1391ada8c86e","method":"GET"}
+2025-03-18 19:57:23 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:57:23 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:57:25 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:25 [[34mdebug[39m]: CastError: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets",    at SchemaObjectId.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schema/objectId.js:251:11),    at SchemaType.applySetters (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1255:12),    at SchemaType.castForQuery (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1673:17),    at cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/cast.js:390:32),    at Query.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4907:12),    at Query._castConditions (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2325:10),    at model.Query._findOne (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2648:8),    at model.Query.exec (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4456:80),    at process.processTicksAndRejections (node:internal/process/task_queues:105:5),    at async PetDao.getOne (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/pets/pet.dao.js:14:12)
+2025-03-18 19:57:30 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:57:30 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:57:32 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:32 [[34mdebug[39m]: CastError: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets",    at SchemaObjectId.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schema/objectId.js:251:11),    at SchemaType.applySetters (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1255:12),    at SchemaType.castForQuery (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/schemaType.js:1673:17),    at cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/cast.js:390:32),    at Query.cast (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4907:12),    at Query._castConditions (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2325:10),    at model.Query._findOne (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:2648:8),    at model.Query.exec (/Users/luis/coder/comisones/backend-70360/clase-04/node_modules/mongoose/lib/query.js:4456:80),    at process.processTicksAndRejections (node:internal/process/task_queues:105:5),    at async PetDao.getOne (file:///Users/luis/coder/comisones/backend-70360/clase-04/src/modules/pets/pet.dao.js:14:12)
+2025-03-18 19:57:56 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:57:56 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 19:57:58 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 19:57:58 [[34mdebug[39m]: 500
+2025-03-18 19:58:13 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 19:58:13 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:13:30 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 20:13:30 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:13:34 [[31merror[39m]: Status: 500 [GET] /api/pets/67ca35d1e8b1391ada8c86e - msg: Cast to ObjectId failed for value "67ca35d1e8b1391ada8c86e" (type string) at path "_id" for model "pets"
+2025-03-18 20:14:37 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 20:14:37 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:14:51 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 20:14:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:16:44 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 20:16:44 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:16:49 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-18 20:16:49 [[31merror[39m]: Status: 401 [POST] /api/auth/login - msg: El mail o password no válido
+2025-03-18 20:17:32 [[32minfo[39m]: Mongo DB Conectado
+2025-03-18 20:17:32 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-18 20:17:38 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-18 20:17:38 [[34mdebug[39m]: Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2EyNzgwMjQxMWYyNDJhNTJjNDIzZCIsImVtYWlsIjoiQW5hTHVpc2FfQWxjYXJhelNvbGl6QGdtYWlsLmNvbSIsImlhdCI6MTc0MjMzOTg1OCwiZXhwIjoxNzQyMzQxNjU4fQ.E8qBHHSxi1u9Amoscu5HX-_I8YUxmylRZi0FtOLYtkE
