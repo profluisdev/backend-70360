@@ -76,3 +76,99 @@ undefined [[object Object]]: undefined
 2025-03-18 20:17:32 [[32minfo[39m]: Servidor en el puerto 8080
 2025-03-18 20:17:38 [[34mdebug[39m]: Iniciando login en el servicio
 2025-03-18 20:17:38 [[34mdebug[39m]: Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2EyNzgwMjQxMWYyNDJhNTJjNDIzZCIsImVtYWlsIjoiQW5hTHVpc2FfQWxjYXJhelNvbGl6QGdtYWlsLmNvbSIsImlhdCI6MTc0MjMzOTg1OCwiZXhwIjoxNzQyMzQxNjU4fQ.E8qBHHSxi1u9Amoscu5HX-_I8YUxmylRZi0FtOLYtkE
+2025-03-24 21:45:33 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:45:33 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:46:53 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:46:53 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:47:20 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:47:20 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:47:36 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:47:36 [[34mdebug[39m]: Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3Y2EyNzgwMjQxMWYyNDJhNTJjNDIzZCIsImVtYWlsIjoiQW5hTHVpc2FfQWxjYXJhelNvbGl6QGdtYWlsLmNvbSIsImlhdCI6MTc0Mjg2MzY1NiwiZXhwIjoxNzQyODY1NDU2fQ.-6x_DmbNfYzkd_o_H2nvc1Lcrf_gkk5GMStcC2k7qyk
+2025-03-24 21:47:36 [[31merror[39m]: {
+  "statusCode": 500,
+  "files": [
+    "Error: probando",
+    "    at login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:17:13)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+  ],
+  "message": "probando",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:48:45 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:48:45 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:48:53 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:48:53 [[31merror[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.service.js:24:66)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:16:21)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:49:47 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:49:47 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:50:00 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:50:00 [[31merror[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.service.js:24:66)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:16:21)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:50:34 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:50:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:50:37 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:50:37 [[31merror[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.service.js:24:66)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:16:21)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:51:28 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:51:28 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:51:31 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:51:31 [[34mdebug[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.service.js:24:66)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:16:21)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:51:50 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:51:50 [[34mdebug[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.service.js:24:66)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+    "    at async login (file:///Users/luis/coder/comisones/backend-70360/clase-04/apoption/src/modules/auth/auth.controller.js:16:21)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-03-24 21:52:31 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 21:52:31 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 21:52:34 [[34mdebug[39m]: Iniciando login en el servicio
+2025-03-24 21:52:34 [[31merror[39m]: Status: 401 [POST] /api/auth/login - msg: El mail o password no válido
