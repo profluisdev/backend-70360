@@ -1,8 +1,8 @@
 paths:
   /api/pets/{id}:
-    get:
-      summary: Obtener un pet por id
-      description: Get pet by id
+    delete:
+      summary: Eliminar un pet por id
+      description: Delete pet by id
       tags:
         - Pets
       parameters:
@@ -15,7 +15,7 @@ paths:
           description: ID de la mascota
       responses:
         200:
-          description: Retorno de mascota ok
+          description: Mascota eliminada
           content:
             application/json:
               schema:
