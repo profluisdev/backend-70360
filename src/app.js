@@ -8,7 +8,7 @@ import swaggerUiExpress from "swagger-ui-express";
 import {  swaggerOptions } from "./config/swagger.config.js";
 
 const app = express();
-connectDB();
+// connectDB();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
